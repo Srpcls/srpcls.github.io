@@ -243,7 +243,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const navDrawer = document.getElementById('nav-drawer');
     const drawerOverlay = document.getElementById('drawer-overlay');
     const drawerClose = document.getElementById('drawer-close');
-    const themeToggle = document.getElementById('theme-toggle');
 
     let previousPage = 'home';
     let currentPageKey = 'home';
@@ -267,22 +266,56 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.drawer-dropdown-btn').forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.stopPropagation();
-            const parent = this.parentElement;
-            parent.classList.toggle('active');
+            const currentParent = this.parentElement;
+            document.querySelectorAll('.drawer-dropdown').forEach(dropdown => {
+                if (dropdown !== currentParent) {
+                    dropdown.classList.remove('active');
+                }
+            });
+            currentParent.classList.toggle('active');
         });
     });
 
-    if (themeToggle) {
-        const themeIcon = themeToggle.querySelector('.theme-icon');
-        const themeText = themeToggle.querySelector('.theme-text');
-
-        themeToggle.addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
-            const isDark = document.body.classList.contains('dark-mode');
-            themeIcon.textContent = isDark ? '☀️' : '🌙';
-            themeText.textContent = isDark ? 'โหมดสว่าง' : 'โหมดมืด';
-        });
+    const themeSwitcherInputs = document.querySelectorAll('input[name="theme"]');
+    
+    function getInitialTheme() {
+        const savedTheme = localStorage.getItem("theme");
+        return savedTheme ? savedTheme : "system";
     }
+
+    function applyTheme(theme) {
+        if (theme === "system") {
+            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            document.body.classList.toggle("dark-mode", prefersDark);
+        } else {
+            document.body.classList.toggle("dark-mode", theme === "dark");
+        }
+
+        document.querySelectorAll('.theme-label').forEach(label => label.classList.remove('active'));
+        const activeInput = document.querySelector(`input[name="theme"][value="${theme}"]`);
+        if(activeInput) {
+            activeInput.checked = true;
+            activeInput.nextElementSibling.classList.add('active');
+        }
+
+        localStorage.setItem("theme", theme);
+    }
+
+    let currentTheme = getInitialTheme();
+    applyTheme(currentTheme);
+
+    themeSwitcherInputs.forEach(input => {
+        input.addEventListener('change', (e) => {
+            currentTheme = e.target.value;
+            applyTheme(currentTheme);
+        });
+    });
+
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', (e) => {
+        if (currentTheme === "system") {
+            document.body.classList.toggle("dark-mode", e.matches);
+        }
+    });
 
     dropdowns.forEach(dropdown => {
         const toggle = dropdown.querySelector('.dropdown-toggle');
