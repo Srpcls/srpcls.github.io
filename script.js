@@ -239,10 +239,50 @@ document.addEventListener('DOMContentLoaded', function() {
     const detailDesc = document.getElementById('detail-desc');
     const btnBackDetail = document.getElementById('btn-back-detail');
 
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navDrawer = document.getElementById('nav-drawer');
+    const drawerOverlay = document.getElementById('drawer-overlay');
+    const drawerClose = document.getElementById('drawer-close');
+    const themeToggle = document.getElementById('theme-toggle');
+
     let previousPage = 'home';
     let currentPageKey = 'home';
     let isTransitioning = false;
     const dropdowns = document.querySelectorAll('.dropdown');
+
+    function openDrawer() {
+        navDrawer.classList.add('open');
+        drawerOverlay.classList.add('active');
+    }
+
+    function closeDrawer() {
+        navDrawer.classList.remove('open');
+        drawerOverlay.classList.remove('active');
+    }
+
+    if (hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
+    if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
+    if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+
+    document.querySelectorAll('.drawer-dropdown-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const parent = this.parentElement;
+            parent.classList.toggle('active');
+        });
+    });
+
+    if (themeToggle) {
+        const themeIcon = themeToggle.querySelector('.theme-icon');
+        const themeText = themeToggle.querySelector('.theme-text');
+
+        themeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            themeIcon.textContent = isDark ? '☀️' : '🌙';
+            themeText.textContent = isDark ? 'โหมดสว่าง' : 'โหมดมืด';
+        });
+    }
 
     dropdowns.forEach(dropdown => {
         const toggle = dropdown.querySelector('.dropdown-toggle');
@@ -261,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isTransitioning || pageKey === currentPageKey) return;
         isTransitioning = true;
 
+        closeDrawer();
         dropdowns.forEach(d => d.classList.remove('open'));
 
         const currentActive = document.querySelector('.page-view.active');
@@ -345,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateActiveNav(pageKey) {
-        document.querySelectorAll('.nav-links a').forEach(link => {
+        document.querySelectorAll('.nav-links a, .drawer-links a').forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('data-page') === pageKey) {
                 link.classList.add('active');
@@ -363,9 +404,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    document.querySelector('.brand').addEventListener('click', function(e) {
-        e.preventDefault();
-        navigateTo('home');
+    document.querySelectorAll('.brand').forEach(brand => {
+        brand.addEventListener('click', function(e) {
+            e.preventDefault();
+            navigateTo('home');
+        });
     });
 
     btnBackDetail.addEventListener('click', function() {
