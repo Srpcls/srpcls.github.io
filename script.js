@@ -82,133 +82,133 @@ document.addEventListener('DOMContentLoaded', function() {
             tag: 'สถานที่พัก',
             title: 'โรงแรมแปซิฟิค พาร์ค',
             desc: 'โรงแรมหรูใกล้นครศรีราชา เดินทางสะดวก มีสิ่งอำนวยความสะดวกครบครัน สระว่ายน้ำ ฟิตเนส และห้องพักกว้างขวางสบาย',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/โรงแรมแปซิฟิค พาร์ค.png'
         },
         thebed: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เดอะเบด บาย บุญจิรา',
             desc: 'ที่พักสไตล์โมเดิร์น บรรยากาศอบอุ่น ราคามิตรภาพ เหมาะสำหรับการเดินทางมาพักผ่อนหรือติดต่องานในชลบุรี',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เดอะเบด บาย บุญจิรา.png'
         },
         poresva: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โรงแรมโพเรสวา',
             desc: 'โรงแรมสไตล์รีสอร์ท ร่มรื่นด้วยธรรมชาติและการตกแต่งแบบทันสมัย พร้อมบริการที่เป็นมิตรและห้องพักสะอาด',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/โรงแรมโพเรสวา.png'
         },
         seabreeze: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'ซีบรีส บางแสน',
             desc: 'ที่พักใกล้หาดบางแสน เดินเพียงไม่กี่ก้าวก็ถึงทะเล บรรยากาศเงียบสงบ เหมาะสำหรับคู่รักและครอบครัว',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ซีบรีส บางแสน.png'
         },
         zackthenap: {
             category: 'hotel',
             tag: 'สถานที่พัก',
-            title: 'แซ็ค เดอะ แนป',
+            title: 'แช็ค เดอะ แนป',
             desc: 'ที่พักดีไซน์เก๋ ตกแต่งทันสมัย เน้นความสะอาด สะดวกสบาย ใกล้แหล่งท่องเที่ยวและร้านอาหารยอดนิยม',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/แช็ค เดอะ แนป.png'
         },
         gohotel: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โก โฮเทล ชลบุรี',
             desc: 'โรงแรมสไตล์มินิมอล ทำเลดีใกล้ศูนย์การค้า เหมาะสำหรับนักท่องเที่ยวและคนทำงานที่ต้องการความสะดวกสบาย',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/โก โฮเทล ชลบุรี.png'
         },
         n24: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เอ็น24 ชลบุรี',
             desc: 'โรงแรมราคาประหยัด ห้องพักกว้างขวาง สะอาด มีระบบรักษาความปลอดภัย 24 ชั่วโมง',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เอ็น24 ชลบุรี.png'
         },
         thesila: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โรงแรมเดอะ ศิลา',
             desc: 'บูทีคโฮเทลบรรยากาศส่วนตัว การตกแต่งเน้นโทนธรรมชาติ ผ่อนคลาย เหมาะสำหรับการพักผ่อนอย่างแท้จริง',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/โรงแรมเดอะ ศิลา.png'
         },
         sriracha: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เดอะ ศรีราชา เรสซิเดนซ์',
             desc: 'เซอร์วิสอพาร์ทเมนท์หรูหราพร้อมวิวทะเลศรีราชา มีห้องครัวและสิ่งอำนวยความสะดวกสำหรับการพักอาศัยระยะยาว',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เดอะ ศรีราชา เรสซิเดนซ์.png'
         },
         primetime: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'Prime Time Hotel Bang Saen',
             desc: 'โรงแรมสไตล์โมเดิร์นใจกลางบางแสน ใกล้หาดและร้านอาหาร มีการบริการระดับพรีเมียม',
-            image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/Prime Time Hotel Bang Saen.png'
         },
         kholam: {
             category: 'otop',
             tag: 'สินค้า OTOP',
             title: 'ข้าวหลามหนองมน',
             desc: 'ของฝากเลื่องชื่อ รสชาติหวานมัน หอมกลิ่นกระบอกไม้ไผ่ มีหลากหลายไส้ ทั้งถั่วดำ เผือก และกะทิสดเข้มข้น',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ข้าวหลามหนองมน.png'
         },
         hoijor: {
             category: 'otop',
             tag: 'สินค้า OTOP',
             title: 'หอยจ๊อปู',
             desc: 'หอยจ๊อปูสอดไส้เนื้อปูแน่นๆ ทอดกรอบนอกนุ่มใน น้ำจิ้มบ๊วยรสเด็ด ของดีเมืองชลบุรีที่ต้องลอง',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/หอยจ๊อปู.png'
         },
         krok: {
             category: 'otop',
             tag: 'สินค้า OTOP',
             title: 'ครกหินอ่างศิลา',
             desc: 'งานหัตถกรรมจากหินแกรนิตธรรมชาติที่มีความทนทาน เป็นเอกลักษณ์เฉพาะของตำบลอ่างศิลา',
-            image: 'https://images.unsplash.com/photo-1580977276076-ac4cbddb4b5e?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ครกหินอ่างศิลา.png'
         },
         puek: {
             category: 'otop',
             tag: 'สินค้า OTOP',
             title: 'ผ้าทอบ้านปึก',
             desc: 'ผ้าทอพื้นเมืองที่มีลวดลายเป็นเอกลักษณ์ ถักทอด้วยความประณีต ซึมซับภูมิปัญญาท้องถิ่นของชาวบ้านปึก',
-            image: 'https://images.unsplash.com/photo-1580977276076-ac4cbddb4b5e?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ผ้าทอบ้านปึก.png'
         },
         teakship: {
             category: 'otop',
             tag: 'สินค้า OTOP',
             title: 'เรือจำลองไม้สักทอง',
             desc: 'งานประดิษฐ์เรือจำลองประณีตจากไม้สักทอง ทรงคุณค่า เหมาะสำหรับเป็นของขวัญและของตกแต่งบ้าน',
-            image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เรือจำลองไม้สักทอง.png'
         },
         namon: {
             category: 'restaurant',
             tag: 'ร้านอาหาร',
             title: 'ก๋วยเตี๋ยวหน้ามน',
             desc: 'ร้านก๋วยเตี๋ยวชื่อดังบางแสน บรรยากาศร่มรื่น ตกแต่งสไตล์คาเฟ่ เมนูเด็ดก๋วยเตี๋ยวต้มยำโบราณ และลูกชิ้นปู',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ก๋วยเตี๋ยวหน้ามน.png'
         },
         piakman: {
             category: 'restaurant',
             tag: 'ร้านอาหาร',
             title: 'เปี๊ยกมันทะเล',
             desc: 'ร้านอาหารทะเลสดใหม่ รสชาติจัดจ้านสไตล์บ้านๆ วัตถุดิบคุณภาพส่งตรงจากสะพานปลาทุกวัน',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เปี๊ยกมันทะเล.png'
         },
         jmien: {
             category: 'restaurant',
             tag: 'ร้านอาหาร',
             title: 'เจ๊เมี้ยน',
             desc: 'ร้านอาหารทะเลดั้งเดิม ปรุงด้วยสูตรเฉพาะตัว เมนูซีฟู้ดผัดฉ่า แกงส้มไข่ปลาเรียวเซียว และต้มยำกุ้งสุดเข้มข้น',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/เจ๊เมี้ยน.png'
         },
         nachon: {
             category: 'restaurant',
             tag: 'ร้านอาหาร',
             title: 'ร้าน ณ ชล',
             desc: 'ร้านอาหารไทยบรรยากาศอบอุ่น ตกแต่งสวยงาม เสิร์ฟอาหารไทยและอาหารท้องถิ่นชลบุรีรสชาติดั้งเดิม',
-            image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop'
+            image: 'images/ร้าน ณ ชล.png'
         },
         contact: {
             category: 'contact',
