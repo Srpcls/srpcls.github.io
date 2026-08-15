@@ -210,6 +210,34 @@ document.addEventListener('DOMContentLoaded', function() {
             desc: 'ร้านอาหารไทยบรรยากาศอบอุ่น ตกแต่งสวยงาม เสิร์ฟอาหารไทยและอาหารท้องถิ่นชลบุรีรสชาติดั้งเดิม',
             image: 'images/ร้าน ณ ชล.png'
         },
+        wanlai: {
+            category: 'tradition',
+            tag: 'ประเพณี',
+            title: 'ประเพณีวันไหล',
+            desc: 'งานประเพณีสงกรานต์ที่จัดขึ้นหลังจากวันสงกรานต์ปกติ มักจัดในช่วงวันที่ 16-20 เมษายน ของทุกปี โดยเฉพาะที่บางแสนและพัทยา มีการเล่นน้ำและก่อพระเจดีย์ทราย',
+            image: 'images/ประเพณีวันไหล.png'
+        },
+        kongkhao: {
+            category: 'tradition',
+            tag: 'ประเพณี',
+            title: 'ประเพณีอุ้มสาวลงน้ำ',
+            desc: 'ประเพณีท้องถิ่นของจังหวัดชลบุรี จัดขึ้นหลังเทศกาลสงกรานต์ ชาวบ้านจะนำอาหารคาวหวานมากองรวมกันเพื่อเซ่นไหว้ภูตผีและสัมภเวสี เพื่อความเป็นสิริมงคล',
+            image: 'images/ประเพณีอุ้มสาวลงน้ำ.png'
+        },
+        wingkhwai: {
+            category: 'tradition',
+            tag: 'ประเพณี',
+            title: 'ประเพณีวิ่งควาย',
+            desc: 'ประเพณีเก่าแก่ของจังหวัดชลบุรี จัดขึ้นในวันขึ้น 14 ค่ำ เดือน 11 ก่อนออกพรรษา 1 วัน เพื่อเป็นการทำขวัญควายและให้ควายได้พักผ่อนหลังจากการทำนา',
+            image: 'images/ประเพณีวิ่งควาย.png'
+        },
+        bunklangban: {
+            category: 'tradition',
+            tag: 'ประเพณี',
+            title: 'ประเพณีบุญกลางบ้าน',
+            desc: 'งานทำบุญของชาวบ้านในชุมชน จัดขึ้นในช่วงเดือน 3 ถึงเดือน 6 เพื่อขับไล่สิ่งชั่วร้ายและขอพรรุกขเทวดาให้คุ้มครองชาวบ้านให้อยู่เย็นเป็นสุข',
+            image: 'images/ประเพณีบุญกลางบ้าน.png'
+        },
         contact: {
             category: 'contact',
             tag: 'ติดต่อเรา',
@@ -223,7 +251,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'category-attraction': { title: 'สถานที่ท่องเที่ยวทั้งหมด', categoryKey: 'attraction' },
         'category-hotel': { title: 'สถานที่พักทั้งหมด', categoryKey: 'hotel' },
         'category-otop': { title: 'สินค้า OTOP ทั้งหมด', categoryKey: 'otop' },
-        'category-restaurant': { title: 'ร้านอาหารทั้งหมด', categoryKey: 'restaurant' }
+        'category-restaurant': { title: 'ร้านอาหารทั้งหมด', categoryKey: 'restaurant' },
+        'category-tradition': { title: 'ประเพณีทั้งหมด', categoryKey: 'tradition' }
     };
 
     const homeView = document.getElementById('home-view');
@@ -248,6 +277,27 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentPageKey = 'home';
     let isTransitioning = false;
     const dropdowns = document.querySelectorAll('.dropdown');
+
+    let lastScrollY = window.scrollY;
+    const brandElement = document.querySelector('.brand');
+    const navRightElement = document.querySelector('.nav-right');
+
+    window.addEventListener('scroll', function() {
+        let currentScrollY = window.scrollY;
+        if (window.innerWidth <= 992) {
+            if (currentScrollY > lastScrollY && currentScrollY > 50) {
+                brandElement.classList.add('hide-on-scroll');
+                navRightElement.classList.add('hide-on-scroll');
+            } else {
+                brandElement.classList.remove('hide-on-scroll');
+                navRightElement.classList.remove('hide-on-scroll');
+            }
+        } else {
+            brandElement.classList.remove('hide-on-scroll');
+            navRightElement.classList.remove('hide-on-scroll');
+        }
+        lastScrollY = currentScrollY;
+    });
 
     function openDrawer() {
         navDrawer.classList.add('open');
