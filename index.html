@@ -38,8 +38,8 @@
                     <ul class="dropdown-menu">
                         <li><a href="#" class="nav-item" data-page="bangsaen">หาดบางแสน</a></li>
                         <li><a href="#" class="nav-item" data-page="sammuk">เขาสามมุข</a></li>
-                        <li><a href="#" class="nav-item" data-page="nongmon">ตลาดหนองมน</a></li>
                         <li><a href="#" class="nav-item" data-page="laemtaen">แหลมแท่น</a></li>
+                        <li><a href="#" class="nav-item" data-page="nongmon">ตลาดหนองมน</a></li>
                         <li><a href="#" class="nav-item" data-page="chakri">เรือหลวงจักรีนฤเบศร</a></li>
                         <li><a href="#" class="nav-item" data-page="cheechan">วัดเขาชีจรรย์</a></li>
                         <li><a href="#" class="nav-item" data-page="floatingmarket">ตลาดน้ำ 4 ภาค</a></li>
@@ -89,8 +89,8 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#" class="nav-item" data-page="namon">ก๋วยเตี๋ยวหน้ามน</a></li>
-                        <li><a href="#" class="nav-item" data-page="piakman">เปี๊ยกมันทะเล</a></li>
                         <li><a href="#" class="nav-item" data-page="jmien">เจ๊เมี้ยน</a></li>
+                        <li><a href="#" class="nav-item" data-page="piakman">เปี๊ยกมันทะเล</a></li>
                         <li><a href="#" class="nav-item" data-page="nachon">ร้าน ณ ชล</a></li>
                     </ul>
                 </li>
@@ -134,8 +134,8 @@
                     <ul class="drawer-dropdown-menu">
                         <li><a href="#" class="nav-item" data-page="bangsaen">หาดบางแสน</a></li>
                         <li><a href="#" class="nav-item" data-page="sammuk">เขาสามมุข</a></li>
-                        <li><a href="#" class="nav-item" data-page="nongmon">ตลาดหนองมน</a></li>
                         <li><a href="#" class="nav-item" data-page="laemtaen">แหลมแท่น</a></li>
+                        <li><a href="#" class="nav-item" data-page="nongmon">ตลาดหนองมน</a></li>
                         <li><a href="#" class="nav-item" data-page="chakri">เรือหลวงจักรีนฤเบศร</a></li>
                         <li><a href="#" class="nav-item" data-page="cheechan">วัดเขาชีจรรย์</a></li>
                         <li><a href="#" class="nav-item" data-page="floatingmarket">ตลาดน้ำ 4 ภาค</a></li>
@@ -188,8 +188,8 @@
                     </button>
                     <ul class="drawer-dropdown-menu">
                         <li><a href="#" class="nav-item" data-page="namon">ก๋วยเตี๋ยวหน้ามน</a></li>
-                        <li><a href="#" class="nav-item" data-page="piakman">เปี๊ยกมันทะเล</a></li>
                         <li><a href="#" class="nav-item" data-page="jmien">เจ๊เมี้ยน</a></li>
+                        <li><a href="#" class="nav-item" data-page="piakman">เปี๊ยกมันทะเล</a></li>
                         <li><a href="#" class="nav-item" data-page="nachon">ร้าน ณ ชล</a></li>
                         <li><a href="#" class="nav-item" data-page="category-restaurant">ร้านอาหารทั้งหมด</a></li>
                     </ul>
@@ -209,7 +209,7 @@
                     </ul>
                 </li>
 
-                <li><a href="#" class="nav-item" data-page="contact">ติดต่อเรา</a></li>
+                <li><a href="#" class="nav-item" data-page="contact">ผู้จัดทำ</a></li>
             </ul>
         </div>
     </aside>
@@ -364,7 +364,7 @@
                   <path d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z" fill="#000000"></path>
                 </svg>
               </div>
-              <p class="btn-goback-text">Go Back</p>
+              <p class="btn-goback-text">ย้อนกลับ</p>
             </button>
 
             <h1 id="category-title" class="category-title">ชื่อหมวดหมู่</h1>
@@ -382,7 +382,7 @@
                   <path d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z" fill="#000000"></path>
                 </svg>
               </div>
-              <p class="btn-goback-text">Go Back</p>
+              <p class="btn-goback-text">ย้อนกลับ</p>
             </button>
 
             <div class="detail-content-box">
@@ -402,12 +402,23 @@
                             </svg>
                         </a>
                         
-                        <a id="detail-map-btn" class="btn-map" href="#" target="_blank" style="display: none;">
-                            <span>เปิดแผนที่</span>
-                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
+                        <a id="detail-map-btn" class="map-btn-wrapper" href="#" target="_blank" style="display: none;">
+                            <svg height="0" width="0" style="position: absolute; width: 0; height: 0; border: 0; padding: 0; margin: 0;">
+                                <filter id="land">
+                                    <feTurbulence result="turb" numOctaves="7" baseFrequency="0.006" type="fractalNoise"></feTurbulence>
+                                    <feDisplacementMap yChannelSelector="G" xChannelSelector="R" scale="700" in="SourceGraphic" in2="turb"></feDisplacementMap>
+                                </filter>
                             </svg>
+
+                            <div class="map-btn">เปิดแผนที่</div>
+
+                            <div class="pinpoint"></div>
+                            <div class="map-container">
+                                <div class="map fold-1"></div>
+                                <div class="map fold-2"></div>
+                                <div class="map fold-3"></div>
+                                <div class="map fold-4"></div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -415,6 +426,18 @@
                 <img id="detail-image" src="" alt="" class="detail-image">
                 <p id="detail-desc" class="detail-desc">รายละเอียด</p>
             </div>
+            
+            <div class="detail-navigation-wrapper" style="display: none;">
+                <button id="btn-prev-detail" class="btn-nav-detail" type="button" style="display: none;">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M15 18l-6-6 6-6"/></svg>
+                    <span>หน้าที่แล้ว</span>
+                </button>
+                <button id="btn-next-detail" class="btn-nav-detail" type="button" style="display: none;">
+                    <span>หน้าถัดไป</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+            
         </section>
     </div>
     

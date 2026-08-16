@@ -43,12 +43,14 @@ body {
     align-items: center;
     padding: 0 15px;
     z-index: 1000;
+    pointer-events: none;
 }
 
 .nav-left {
     display: flex;
     align-items: center;
     gap: 20px;
+    pointer-events: auto;
 }
 
 .brand {
@@ -64,7 +66,7 @@ body {
     backdrop-filter: blur(10px);
     padding: 6px 20px 6px 8px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     white-space: nowrap;
     flex-shrink: 0;
 }
@@ -81,9 +83,10 @@ body {
     backdrop-filter: blur(10px);
     padding: 8px 16px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: 15px;
+    pointer-events: auto;
 }
 
 .nav-links {
@@ -138,7 +141,7 @@ body {
     max-height: 70vh;
     overflow-y: auto;
     list-style: none;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     opacity: 0;
     visibility: hidden;
     transition: all 0.2s ease;
@@ -174,6 +177,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    pointer-events: auto;
 }
 
 .btn-contact {
@@ -184,14 +188,14 @@ body {
     border-radius: 50px;
     text-decoration: none;
     font-size: 14px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .btn-contact:hover {
     background-color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .hamburger-btn {
@@ -244,7 +248,7 @@ body {
     z-index: 1010;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.3);
     transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -459,6 +463,7 @@ body {
     word-break: break-word;
     overflow-wrap: break-word;
     width: 100%;
+    text-indent: 2em;
 }
 
 .highlight-image {
@@ -468,7 +473,7 @@ body {
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     display: block;
     flex: 1 1 300px;
 }
@@ -571,8 +576,8 @@ body {
     font-weight: 600;
     border: none;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -630,7 +635,7 @@ body {
     background: #ffffff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     display: flex;
@@ -639,7 +644,7 @@ body {
 
 .card-item:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .card-item img {
@@ -674,6 +679,7 @@ body {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-indent: 2em;
 }
 
 .card-item-link {
@@ -693,9 +699,39 @@ body {
     background: #ffffff;
     padding: 40px;
     border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     max-width: 900px;
-    margin: 0 auto;
+    margin: 60px auto 0;
+}
+
+.detail-navigation-wrapper {
+    max-width: 900px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.btn-nav-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    color: #374151;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.btn-nav-detail:hover {
+    border-color: #9ca3af;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
 }
 
 .detail-tag {
@@ -730,6 +766,24 @@ body {
     color: #4b5563;
     line-height: 1.8;
     white-space: pre-line;
+    text-indent: 2em;
+}
+
+.detail-desc.no-indent {
+    text-indent: 0;
+}
+
+/* Team Table Styles */
+.team-table {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.team-row {
+    display: grid;
+    grid-template-columns: 200px 180px 1fr;
+    gap: 15px;
 }
 
 #home-view {
@@ -742,7 +796,7 @@ body {
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     overflow: hidden;
     margin: 0 auto;
@@ -787,48 +841,194 @@ body {
     align-items: center;
 }
 
-.btn-map, .btn-book {
+.btn-book {
     display: flex;
     align-items: center;
     gap: 8px;
     padding: 10px 16px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #6225e6;
     border-radius: 12px;
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
     transition: all 0.2s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-}
-
-.btn-map {
-    background-color: #ffffff;
-    color: #374151;
-}
-
-.btn-map:hover {
-    border-color: #9ca3af;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.btn-map svg {
-    color: #4b5563;
-}
-
-.btn-book {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     background-color: #6225e6;
-    border-color: #6225e6;
     color: #ffffff;
 }
 
 .btn-book:hover {
     background-color: #4f1db5;
     border-color: #4f1db5;
-    box-shadow: 0 4px 12px rgba(98, 37, 230, 0.2);
+    box-shadow: 0 4px 12px rgba(98, 37, 230, 0.4);
 }
 
 .btn-book svg {
     color: #ffffff;
+}
+
+/* =========================================
+   Map Button Styles (From Uiverse)
+   ========================================= */
+.map-btn-wrapper {
+  --btn-color: #f5101b;
+  --text-color: #fff;
+  --land-color: #ffdd9f;
+  --veg-color: #36ad5aa9;
+  --water-color: #b3e3ff;
+  --transition-dur: 0.3s;
+
+  position: relative;
+  display: flex;
+  font-size: 15px; 
+  font-family: inherit;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 50ch;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform var(--transition-dur) ease, box-shadow var(--transition-dur) ease;
+}
+
+.map-btn-wrapper:has(.map-btn:hover) {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 6px rgba(245, 16, 27, 0.7);
+}
+
+.map-btn-wrapper:has(.map-btn:active) {
+  transform: scale(1.02) translateY(0.1em);
+  box-shadow: 0 0 10px 2px rgba(245, 16, 27, 0.7);
+}
+
+.map-btn {
+  cursor: pointer;
+  padding: 10px 16px 10px 40px; 
+  border-radius: 50ch;
+  background-color: var(--btn-color);
+  font-weight: 500;
+  color: var(--text-color);
+  transition:
+    color var(--transition-dur) ease-in-out,
+    background-color var(--transition-dur) ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.pinpoint {
+  pointer-events: none;
+  position: absolute;
+  height: 16px; 
+  aspect-ratio: 1;
+  top: 50%;
+  transform: translateY(-50%) rotateZ(45deg); 
+  left: 14px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  mask-image: radial-gradient(circle at center, #0000 0%, #0000 32%, #fff 36%);
+  -webkit-mask-image: radial-gradient(circle at center, #0000 0%, #0000 32%, #fff 36%);
+  filter: blur(0.25px);
+  transition:
+    background-color var(--transition-dur) ease-in-out,
+    transform var(--transition-dur) ease-in-out,
+    border-radius calc(var(--transition-dur) + 0.1s) ease;
+  z-index: 1;
+}
+
+.map-container {
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  perspective: 120px;
+  transform: perspective(120px) rotateX(35deg) scaleX(0);
+  transform-origin: 3em 0.5em;
+  transition:
+    transform var(--transition-dur) ease-in-out,
+    opacity var(--transition-dur) ease-in-out;
+  opacity: 0;
+  z-index: 0;
+}
+
+.map {
+  position: absolute;
+  bottom: 0px;
+  width: 120px;
+  height: 200px;
+  background-color: var(--water-color);
+  background-image: linear-gradient(to bottom, #fff2, 30%, #0000);
+  transform-origin: left bottom;
+}
+.map::after {
+  content: "";
+  top: -40px;
+  left: 12px;
+  width: 100%;
+  height: 200%;
+  background-color: var(--land-color);
+  position: absolute;
+  filter: url(#land);
+  box-shadow: inset 0 0 48px 24px var(--veg-color);
+  z-index: 0;
+}
+.fold-1,
+.fold-2,
+.fold-3,
+.fold-4 {
+  mask-image: linear-gradient(to top, #fff, 97%, #0000);
+  -webkit-mask-image: linear-gradient(to top, #fff, 97%, #0000);
+  overflow: hidden;
+}
+
+.fold-1 {
+  left: -60px;
+  transform: rotateY(10deg) translateZ(30px);
+}
+.fold-2 {
+  left: 60px;
+  transform: rotateY(-10deg) translateZ(10px);
+}
+.fold-3 {
+  left: -169px;
+  transform: rotateY(-15deg) translateZ(-1px);
+}
+.fold-4 {
+  left: 166px;
+  transform: rotateY(15deg) translateZ(31px);
+}
+.fold-1::before,
+.fold-2::before,
+.fold-3::before,
+.fold-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 10px 16px 3px #0004;
+  z-index: 1;
+}
+
+.map-btn:hover {
+  background-color: var(--text-color);
+  color: #00000025;
+}
+.map-btn:hover + .pinpoint {
+  background-color: var(--btn-color);
+  border-radius: 50% 50% 0 50%;
+  transform: translateY(-50%) rotateZ(45deg) translate(-0.2em, -0.2em);
+}
+.map-btn:hover ~ .map-container {
+  transform: perspective(100px) rotateX(35deg) scaleX(0.85);
+  opacity: 1;
+}
+.map-btn:active + .pinpoint {
+  transform: translateY(-50%) rotateZ(45deg) translate(0em, 0em);
+  transition-duration: calc(var(--transition-dur) * 0.5);
+}
+.map-btn:active ~ .map-container {
+  transform: perspective(95px) rotateX(35deg) scaleX(0.85);
+  transition-duration: calc(var(--transition-dur) * 0.5);
 }
 
 @media (max-width: 768px) {
@@ -836,6 +1036,20 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
+    }
+    
+    .team-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+    
+    .team-row:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -962,7 +1176,7 @@ body {
     background: #fff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
     transform: scale(0.95);
     transition: transform 0.3s ease;
 }

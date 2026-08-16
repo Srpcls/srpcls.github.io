@@ -91,25 +91,25 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โรงแรมแปซิฟิค พาร์ค',
-            desc: 'โรงแรมนี้เป็นสไตล์ซิตี้โฮเทลที่มีความเป็นทางการ ตัวอาคารตั้งอยู่ใจกลางเมืองศรีราชาติดถนนสุขุมวิทและอยู่ใกล้ศูนย์การค้าโรบินสัน ศรีราชา ทำให้เดินทางเข้าถึงได้ง่ายและสะดวกมากบรรยากาศภายในมีความเป็นมืออาชีพและสงบ เหมาะสำหรับนักธุรกิจหรือผู้ที่ต้องการพักผ่อนแบบครบครัน ภายในมีสิ่งอำนวยความสะดวกมาตรฐานครบถ้วน ทั้งสระว่ายน้ำ ฟิตเนส และห้องพักขนาดกว้างขวาง โดยมีช่วงราคาอยู่ในระดับปานกลางถึงค่อนข้างสูง (ประมาณ 1,500 - 2,500 บาท/คืน)',
+            desc: 'โรงแรมนี้เป็นสไตล์ซิตี้โฮเทลที่มีความเป็นทางการ ตัวอาคารตั้งอยู่ใจกลางเมืองศรีราชาติดถนนสุขุมวิทและอยู่ใกล้ศูนย์การค้าโรบินสัน ศรีราชา ทำให้เดินทางเข้าถึงได้ง่ายและสะดวกมากบรรยากาศภายในมีความเป็นมืออาชีพและสงบ เหมาะสำหรับนักธุรกิจหรือผู้ที่ต้องการพักผ่อนแบบครบครัน ภายในมีสิ่งอำนวยความสะดวกมาตรฐานครบถ้วน ทั้งสระว่ายน้ำ ฟิตเนส และห้องพักขนาดกว้างขวาง โดยมีช่วงราคาอยู่ในระดับปานกลางถึงค่อนข้างสูง',
             image: 'images/โรงแรมแปซิฟิค พาร์ค.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5387.2584666705225!2d100.92839487626071!3d13.168941310518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b701f3b339ff%3A0x88881d5b5b718cd1!2z4LmC4Lij4LiH4LmB4Lij4LihIOC5geC4m-C4i-C4tOC4n-C4tOC4hOC4nuC4suC4o-C5jOC4hCDguKjguKPguLXguKPguLLguIrguLI!5e1!3m2!1sth!2sth!4v1786791870218!5m2!1sth!2sth',
-            bookLink: 'https://www.agoda.com/th-th/pacific-park-hotel/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-25&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&los=1&searchrequestid=6c54b443-8df4-4007-9833-827e7e367604&ds=iqiOkESaRs%2ByKmCb'
+            bookLink: 'https://www.agoda.com/th-th/pacific-park-hotel/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-16&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&los=2&searchrequestid=002c4a9d-4046-4e5b-af98-b51a6c5bab1d&ds=VzeAUyJW1cCkpPU8'
         },
         thebed: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เดอะเบด บาย บุญจิรา',
-            desc: 'ที่พักเน้นบรรยากาศแบบอพาร์ตเมนต์สไตล์โมเดิร์นกึ่งบูทีค ให้ความรู้สึกเงียบสงบและไม่พลุกพล่าน เหมาะสำหรับการพักผ่อนแบบเรียบง่าย ตัวห้องพักเน้นความสะอาด ตกแต่งทันสมัย และมีสิ่งอำนวยความสะดวกพื้นฐานครบถ้วน ทำเลตั้งอยู่ในซอย จึงแนะนำให้เดินทางด้วยรถยนต์ส่วนตัวเพื่อให้การเข้าถึงย่านชุมชนหรือสถานที่ต่างๆ สะดวกขึ้น ส่วนราคายังอยู่ในระดับประหยัดถึงปานกลาง (ประมาณ 600 - 1,000 บาท/คืน)',
+            desc: 'ที่พักเน้นบรรยากาศแบบอพาร์ตเมนต์สไตล์โมเดิร์นกึ่งบูทีค ให้ความรู้สึกเงียบสงบและไม่พลุกพล่าน เหมาะสำหรับการพักผ่อนแบบเรียบง่าย ตัวห้องพักเน้นความสะอาด ตกแต่งทันสมัย และมีสิ่งอำนวยความสะดวกพื้นฐานครบถ้วน ทำเลตั้งอยู่ในซอย จึงแนะนำให้เดินทางด้วยรถยนต์ส่วนตัวเพื่อให้การเข้าถึงย่านชุมชนหรือสถานที่ต่างๆ สะดวกขึ้น ส่วนราคายังอยู่ในระดับประหยัดถึงปานกลาง',
             image: 'images/เดอะเบด บาย บุญจิรา.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5381.7297142640045!2d100.99956837626279!3d13.4179401049332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d37adc8132ce7%3A0xa137c2d24248b573!2sThe%20Bed%20by%20Boonjira!5e1!3m2!1sth!2sth!4v1786791911520!5m2!1sth!2sth',
-            bookLink: 'https://www.agoda.com/th-th/boonjira-mansion/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-25&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=6&los=1&searchrequestid=2cf24feb-9630-4625-abb6-79bc58c6584e&ds=iqiOkESaRs%2ByKmCb'
+            bookLink: 'https://www.agoda.com/th-th/boonjira-mansion/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-16&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&tspTypes=6%2C8&los=0&searchrequestid=267f64ed-27c0-4b91-bd2b-6669f36dfdb0&ds=VzeAUyJW1cCkpPU8'
         },
         poresva: {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โรงแรมโพเรสวา',
-            desc: 'ที่พักขนาดกะทัดรัดที่เน้นบรรยากาศเรียบง่าย ไม่หวือหวา ให้ความรู้สึกสบาย เหมาะสำหรับการแวะนอนพักผ่อนระหว่างการเดินทางหรือเน้นการค้างคืนเป็นหลัก สิ่งอำนวยความสะดวกครอบคลุมความจำเป็นพื้นฐานโดยเน้นเรื่องความสะอาด การเดินทางเข้าถึงเหมาะสำหรับผู้ใช้รถยนต์ส่วนตัวเนื่องจากอยู่ในพื้นที่ชลบุรี และมีอัตราค่าบริการอยู่ในระดับประหยัด (ประมาณ 500 - 800บาท/คืน)',
+            desc: 'ที่พักขนาดกะทัดรัดที่เน้นบรรยากาศเรียบง่าย ไม่หวือหวา ให้ความรู้สึกสบาย เหมาะสำหรับการแวะนอนพักผ่อนระหว่างการเดินทางหรือเน้นการค้างคืนเป็นหลัก สิ่งอำนวยความสะดวกครอบคลุมความจำเป็นพื้นฐานโดยเน้นเรื่องความสะอาด การเดินทางเข้าถึงเหมาะสำหรับผู้ใช้รถยนต์ส่วนตัวเนื่องจากอยู่ในพื้นที่ชลบุรี และมีอัตราค่าบริการอยู่ในระดับประหยัด',
             image: 'images/โรงแรมโพเรสวา.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5386.351297931013!2d100.94222527626113!3d13.210113609601775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b67984a4e85f%3A0x5f4ba5491bc69c0e!2z4LmC4Lij4LiH4LmB4Lij4Lih4LmC4Lie4LmA4Lij4Liq4Lin4LiyIOC4muC4suC4h-C4nuC4o-C4sA!5e1!3m2!1sth!2sth!4v1786791957314!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/porestva-hotel-sriracha/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-25&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&los=1&searchrequestid=23b0334a-aa7d-4a64-8af0-59559b796615&ds=iqiOkESaRs%2ByKmCb'
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'ซีบรีส บางแสน',
-            desc: 'เน้นบรรยากาศตากอากาศริมทะเลที่มีความผ่อนคลายและสบายๆ เหมาะกับครอบครัวและกลุ่มเพื่อนที่มาท่องเที่ยว ตัวโรงแรมอยู่ใกล้ชายหาดบางแสน ทำให้เดินหรือขับรถไปหาดและร้านอาหารริมทางได้สะดวกมาก ห้องพักได้มาตรฐาน มีสิ่งอำนวยความสะดวกครบสำหรับการพักผ่อนและบางห้องสามารถรับลมหรือมองเห็นวิวทะเลได้ โดยมีระดับราคาปานกลาง (ประมาณ 1,000 -1,500 บาท/คืน ซึ่งอาจปรับขึ้นตามช่วงวันหยุด)',
+            desc: 'เน้นบรรยากาศตากอากาศริมทะเลที่มีความผ่อนคลายและสบายๆ เหมาะกับครอบครัวและกลุ่มเพื่อนที่มาท่องเที่ยว ตัวโรงแรมอยู่ใกล้ชายหาดบางแสน ทำให้เดินหรือขับรถไปหาดและร้านอาหารริมทางได้สะดวกมาก ห้องพักได้มาตรฐาน มีสิ่งอำนวยความสะดวกครบสำหรับการพักผ่อนและบางห้องสามารถรับลมหรือมองเห็นวิวทะเลได้ โดยมีระดับราคาปานกลาง',
             image: 'images/ซีบรีส บางแสน.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5385.006062327794!2d100.92040167626168!3d13.270936808242546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b4f06bb1d223%3A0xcae9eabe938e4d21!2z4LmC4Lij4LiH4LmB4Lij4Lih4LiL4Li14Lia4Lij4Li14LiLIOC4muC4suC4h-C5geC4quC4mQ!5e1!3m2!1sth!2sth!4v1786791977279!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/seabreeze-bangsaen/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-25&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=[object%20Object]&los=1&searchrequestid=3dd2000d-f67e-4ac6-b7f3-0884875c0723'
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'แช็ค เดอะ แนป',
-            desc: 'ที่พักสไตล์โมเดิร์นลอฟท์และมินิมอลขนาดเล็ก มีบรรยากาศทันสมัยและดูเป็นกันเอง ตอบโจทย์กลุ่มวัยรุ่นหรือนักเดินทางที่ต้องการความกะทัดรัด ห้องพักจัดสรรพื้นที่อย่างลงตัว สะอาด และมีสิ่งอำนวยความสะดวกพื้นฐานครบ การเดินทางสะดวกหากมีรถยนต์ส่วนตัวหรือใช้บริการเรียกรถโดยราคายังอยู่ในระดับประหยัดถึงปานกลาง (ประมาณ 600 - 1,000 บาท/คืน)',
+            desc: 'ที่พักสไตล์โมเดิร์นลอฟท์และมินิมอลขนาดเล็ก มีบรรยากาศทันสมัยและดูเป็นกันเอง ตอบโจทย์กลุ่มวัยรุ่นหรือนักเดินทางที่ต้องการความกะทัดรัด ห้องพักจัดสรรพื้นที่อย่างลงตัว สะอาด และมีสิ่งอำนวยความสะดวกพื้นฐานครบ การเดินทางสะดวกหากมีรถยนต์ส่วนตัวหรือใช้บริการเรียกรถโดยราคายังอยู่ในระดับประหยัดถึงปานกลาง',
             image: 'images/แช็ค เดอะ แนป.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2040.3550728724583!2d100.92405781494011!3d13.29245063285801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b50041ac7f65%3A0xa89648d689e63daa!2sSHaCk_The_naP%20HOSTEL!5e1!3m2!1sth!2sth!4v1786792014299!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/shack-a-nap/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2026-08-25&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=[object%20Object]&los=1&searchrequestid=eb0715a6-c468-4f04-b78c-871738363128'
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โก โฮเทล ชลบุรี',
-            desc: 'โรงแรมบัดเจ็ทแบรนด์ในเครือเซ็นทรัลที่ให้บรรยากาศสดใส ทันสมัย และเป็นระเบียบเรียบร้อย โดดเด่นด้านทำเลเนื่องจากตั้งอยู่ติดกับศูนย์การค้าเซ็นทรัล ชลบุรี จึงเดินทางเข้าถึงได้ง่ายและหาของกินได้สะดวกตลอดเวลา แม้จะไม่มีสิ่งอำนวยความสะดวกส่วนกลางอย่างสระว่ายน้ำ แต่เน้นความคุ้มค่าในห้องพักด้วยเตียงนอนคุณภาพดีและห้องน้ำที่สะอาดสะอ้าน ในราคาประหยัด(ประมาณ 700 - 1,000 บาท/คืน)',
+            desc: 'โรงแรมบัดเจ็ทแบรนด์ในเครือเซ็นทรัลที่ให้บรรยากาศสดใส ทันสมัย และเป็นระเบียบเรียบร้อย โดดเด่นด้านทำเลเนื่องจากตั้งอยู่ติดกับศูนย์การค้าเซ็นทรัล ชลบุรี จึงเดินทางเข้าถึงได้ง่ายและหาของกินได้สะดวกตลอดเวลา แม้จะไม่มีสิ่งอำนวยความสะดวกส่วนกลางอย่างสระว่ายน้ำ แต่เน้นความคุ้มค่าในห้องพักด้วยเตียงนอนคุณภาพดีและห้องน้ำที่สะอาดสะอ้าน ในราคาประหยัด',
             image: 'images/โก โฮเทล ชลบุรี.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5383.535418079745!2d100.96573767626218!3d13.337118506756845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d4b9f67740445%3A0xcd0a05a4b98c38a1!2z4LmC4LiBISDguYLguK7guYDguJfguKUg4LiK4Lil4Lia4Li44Lij4Li1!5e1!3m2!1sth!2sth!4v1786792035384!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/go-hotel-chonburi-at-central-chonburi/hotel/chonburi-th.html?asq=NQVGXW6jsE3tbdY9S+qUCpufa9Vwpz6XltTHq4n+9gPt6Sc9VYM+OtJvOdzFsuZ%2FQZXqAIprzYhQenDg%2F17T+PNpXe0jRVnY%2Fll0N%2FEw1eZTMDvrHhR3sotx+owWYXgAi5ge0hm6HALaQfO4%2FqkFb4jri%2FpaTuZTxgubR7GA6kkwhTjVZRiHEgAKgMspjnu2bS3dzzacn+n7QZeTArmFD1sLTpOqRmujk%2FPhxBpQYaguj8M+LhsifSwOrbH1trcVzPd3rEdhqihTu1nqriFO4hCjyJAMBDiKNKNNqpc3GgfYvaCTiZuWHNl2m3LbSFfkG5OOzAWFeo8ANGDvIpTfFw%3D%3D&hotel=41386829&ds=iqiOkESaRs%2ByKmCb'
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เอ็น24 ชลบุรี',
-            desc: 'โรงแรมแนวบัดเจ็ทกลางเมืองชลบุรีที่เน้นบรรยากาศโปร่งโล่งและเรียบง่าย ห้องพักใหม่และสะอาดพร้อมสิ่งอำนวยความสะดวกพื้นฐานที่จำเป็นครบถ้วน เหมาะอย่างยิ่งสำหรับการพักผ่อนสั้นๆหรือการเดินทางมาติดต่อธุระ การเดินทางสะดวกหากใช้รถยนต์ส่วนตัวเนื่องจากมีพื้นที่จอดรถรองรับอย่างเพียงพอ และมีราคาอยู่ในระดับประหยัด (ส่วนใหญ่ไม่เกิน 1,000 บาท/คืน)',
+            desc: 'โรงแรมแนวบัดเจ็ทกลางเมืองชลบุรีที่เน้นบรรยากาศโปร่งโล่งและเรียบง่าย ห้องพักใหม่และสะอาดพร้อมสิ่งอำนวยความสะดวกพื้นฐานที่จำเป็นครบถ้วน เหมาะอย่างยิ่งสำหรับการพักผ่อนสั้นๆหรือการเดินทางมาติดต่อธุระ การเดินทางสะดวกหากใช้รถยนต์ส่วนตัวเนื่องจากมีพื้นที่จอดรถรองรับอย่างเพียงพอ และมีราคาอยู่ในระดับประหยัด',
             image: 'images/เอ็น24 ชลบุรี.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5381.926273289354!2d101.01351437626279!3d13.409165505131751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d37821a6d3a45%3A0x2e3eaf37b8d51fe9!2z4LmC4Lij4LiH4LmB4Lij4LihIE4yNCBDaG9uYnVyaQ!5e1!3m2!1sth!2sth!4v1786792054397!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/n24-chonburi/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2026-08-17&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=0&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=16&los=2&searchrequestid=0b5f17ea-cc22-4e6b-ab95-7d2a6487f547&ds=iqiOkESaRs%2ByKmCb'
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'โรงแรมเดอะ ศิลา',
-            desc: 'เน้นบรรยากาศเงียบสงบ เป็นส่วนตัว ตามสไตล์โรงแรมมาตรฐาน ภายในห้องพักมีพื้นที่ใช้สอยกว้างขวาง สภาพห้องสะอาด และมีสิ่งอำนวยความสะดวกครบถ้วนสำหรับการพักผ่อน ทำเลที่ตั้งขยับออกมาจากถนนสายหลักเล็กน้อย จึงเดินทางสะดวกที่สุดเมื่อใช้รถยนต์ส่วนตัวพร้อมมีที่จอดรถกว้างขวาง โดยมีช่วงราคาอยู่ในระดับประหยัดถึงปานกลาง (ประมาณ 700 - 1,200 บาท/คืน)',
+            desc: 'เน้นบรรยากาศเงียบสงบ เป็นส่วนตัว ตามสไตล์โรงแรมมาตรฐาน ภายในห้องพักมีพื้นที่ใช้สอยกว้างขวาง สภาพห้องสะอาด และมีสิ่งอำนวยความสะดวกครบถ้วนสำหรับการพักผ่อน ทำเลที่ตั้งขยับออกมาจากถนนสายหลักเล็กน้อย จึงเดินทางสะดวกที่สุดเมื่อใช้รถยนต์ส่วนตัวพร้อมมีที่จอดรถกว้างขวาง โดยมีช่วงราคาอยู่ในระดับประหยัดถึงปานกลาง',
             image: 'images/โรงแรมเดอะ ศิลา.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5387.584820720212!2d100.94557837626068!3d13.154098610848425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b7bb3e10faa1%3A0xfe063e7b6e51567e!2z4LmC4Lij4LiH4LmB4Lij4Lih4LmA4LiU4Lit4LiwIOC4qOC4tOC4peC4siDguKjguKPguLXguKPguLLguIrguLI!5e1!3m2!1sth!2sth!4v1786792075456!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/the-sila-hotel/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2026-08-17&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=0&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=16&los=2&searchrequestid=b946fb8d-5331-4500-91cb-c73a8d98ebe0&ds=iqiOkESaRs%2ByKmCb'
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'เดอะ ศรีราชา เรสซิเดนซ์',
-            desc: 'ที่พักสไตล์เซอร์วิสอพาร์ตเมนต์ที่ให้บรรยากาศสงบและมีความเป็นส่วนตัวสูง ได้รับความนิยมจากชาวต่างชาติและผู้มาทำงานระยะยาว ภายในห้องพักกว้างขวางและมีอุปกรณ์อำนวยความสะดวกครบครัน เช่น ครัวขนาดเล็กและเครื่องซักผ้า ทำเลตั้งอยู่ในย่านชุมชนศรีราชาใกล้ร้านอาหารและศูนย์การค้า เดินทางเข้าถึงได้ง่าย และอยู่ในระดับราคาปานกลางถึงค่อนข้างสูง (ประมาณ 1,500- 2,500 บาท/คืน)',
+            desc: 'ที่พักสไตล์เซอร์วิสอพาร์ตเมนต์ที่ให้บรรยากาศสงบและมีความเป็นส่วนตัวสูง ได้รับความนิยมจากชาวต่างชาติและผู้มาทำงานระยะยาว ภายในห้องพักกว้างขวางและมีอุปกรณ์อำนวยความสะดวกครบครัน เช่น ครัวขนาดเล็กและเครื่องซักผ้า ทำเลตั้งอยู่ในย่านชุมชนศรีราชาใกล้ร้านอาหารและศูนย์การค้า เดินทางเข้าถึงได้ง่าย และอยู่ในระดับราคาปานกลางถึงค่อนข้างสูง',
             image: 'images/เดอะ ศรีราชา เรสซิเดนซ์.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5387.273426081284!2d100.9304440762608!3d13.168261310533737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b7004e8c5237%3A0xcffce59c44434c03!2z4LmA4LiU4Lit4LiwIOC4qOC4o-C4teC4o-C4suC4iuC4siDguYDguKPguKrguIvguLTguYDguJTguJnguIvguYw!5e1!3m2!1sth!2sth!4v1786792091414!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/the-sriracha-residence_2/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2026-08-17&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=0&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=[object%20Object]&tspTypes=4,16&los=2&searchrequestid=b2df5343-f126-4fe9-9ce4-003633076406'
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'hotel',
             tag: 'สถานที่พัก',
             title: 'Prime Time Hotel Bang Saen',
-            desc: 'โรงแรมสไตล์โมเดิร์นที่มีบรรยากาศมีชีวิตชีวา สะอาด และผ่อนคลาย เหมาะสำหรับทั้งนักท่องเที่ยวและผู้มาติดต่อธุระ ตั้งอยู่ในทำเลดีใกล้กับมหาวิทยาลัยบูรพาและย่านบางแสน ทำให้เดินทางไปยังชายหาด ร้านอาหาร หรือแหล่งชุมชนได้รวดเร็ว มีสิ่งอำนวยความสะดวกครบครันพร้อมบริการอาหารเช้าตามมาตรฐาน โดยราคาอยู่ในระดับปานกลาง (ประมาณ 1,200 - 2,000 บาท/คืน)',
+            desc: 'โรงแรมสไตล์โมเดิร์นที่มีบรรยากาศมีชีวิตชีวา สะอาด และผ่อนคลาย เหมาะสำหรับทั้งนักท่องเที่ยวและผู้มาติดต่อธุระ ตั้งอยู่ในทำเลดีใกล้กับมหาวิทยาลัยบูรพาและย่านบางแสน ทำให้เดินทางไปยังชายหาด ร้านอาหาร หรือแหล่งชุมชนได้รวดเร็ว มีสิ่งอำนวยความสะดวกครบครันพร้อมบริการอาหารเช้าตามมาตรฐาน โดยราคาอยู่ในระดับปานกลาง',
             image: 'images/Prime Time Hotel Bang Saen.png',
             mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5384.640628910575!2d100.93477347626175!3d13.287412207873324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b520f26f5cdb%3A0x511260df21d20ea6!2z4LmC4Lij4LiH4LmB4Lij4Lih4LmE4Lie4Lij4Lih4LmM4LmE4LiX4Lih4LmMIOC4muC4suC4h-C5geC4quC4mQ!5e1!3m2!1sth!2sth!4v1786792118208!5m2!1sth!2sth',
             bookLink: 'https://www.agoda.com/th-th/prime-time-hotel-bang-saen/hotel/chonburi-th.html?countryId=106&finalPriceView=1&isShowMobileAppPrice=false&cid=1844104&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2026-08-17&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=0&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=16&los=2&searchrequestid=72b2a650-c26f-4dd7-8eeb-09df30269a2b&ds=iqiOkESaRs%2ByKmCb'
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'tradition',
             tag: 'ประเพณี',
             title: 'ประเพณีอุ้มสาวลงน้ำ',
-            desc: 'ประเพณีกองข้าว เป็นประเพณีพื้นบ้านอันเป็นเอกลักษณ์ของชาวจังหวัดชลบุรี โดยเฉพาะในพื้นที่อำเภอศรีราชา อำเภอบางละมุง อำเภอพนัสนิคม และอำเภอเมืองชลบุรี ซึ่งสืบทอดกันมาจากบรรพบุรุษนับร้อยปี โดยในอดีตเมื่อถึงช่วงเดือนเมษายนหลังฤดูเก็บเกี่ยวและตรงกับเทศกาลสงกรานต์ ชาวบ้านในท้องถิ่นจะนำอาหารหวานคาวมารวมกันที่กลางหมู่บ้านหรือบริเวณลานกว้างใกล้ต้นไม้ใหญ่ จากนั้นจะนำอาหารมาจัดกองรวมกันบนใบตอง เรียกว่า "กองข้าว" เพื่อทำพิธีบวงสรวงภูตผีปีศาจ เจ้าที่เจ้าทาง และผีไร้ญาติ เป็นการอ้อนวอนขอให้อยู่อย่างร่มเย็นเป็นสุข พืชผลทางการเกษตรเจริญงอกงาม ป้องกันโรคร้ายไม่ให้มาเบียดเบียนคนในชุมชน อีกทั้งยังเป็นกุศโลบายในการสร้างความสมัครสมานสามัคคีให้คนในท้องถิ่นได้มาร่วมรับประทานอาหารและเล่นการละเล่นพื้นบ้านร่วมกัน',
+            desc: 'ประเพณีอุ้มสาวลงน้ำ มีจุดเริ่มต้นมาจากวิถีชีวิตของชาวเกาะขามใหญ่ อำเภอเกาะสีชัง จังหวัดชลบุรี ที่มีข้อจำกัดเรื่องความขาดแคลนน้ำจืดบนเกาะ ทำให้ไม่สามารถเล่นสาดน้ำสงกรานต์แบบพื้นที่บนฝั่งได้ ชาวบ้านจึงปรับเปลี่ยนรูปแบบมาใช้น้ำทะเลในการเล่นสงกรานต์แทน โดยจะจัดขึ้นควบคู่กับงานวันไหลเกาะสีชังในช่วงประมาณวันที่ 18 เมษายน ของทุกปี กิจกรรมหลักคือ ชายหนุ่มหรือลูกหลานจะเข้าไปขออนุญาตหญิงสาว ผู้ใหญ่ หรือผู้สูงอายุอย่างสุภาพ จากนั้นจะอุ้มพาดบ่าหรืออุ้มพาเดินลงไปเล่นน้ำทะเลด้วยกัน ซึ่งเป็นทั้งการคลายร้อน การแสดงความเคารพ และการสานความสัมพันธ์ของคนในชุมชนชาวเกาะ',
             image: 'images/ประเพณีอุ้มสาวลงน้ำ.png'
         },
         wingkhwai: {
@@ -275,9 +275,9 @@ document.addEventListener('DOMContentLoaded', function() {
         contact: {
             category: 'contact',
             tag: 'ผู้จัดทำ',
-            title: 'ผู้จัดทำ',
-            desc: 'นาย สิรภพ ชลาศรี เลขที่ 4 ชั้น.ปวส.2/3-1\n2\n3',
-            image: 'https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1200&auto=format&fit=crop'
+            title: 'คณะผู้จัดทำ',
+            desc: '<div class="team-table"><div class="team-row"><div class="team-col">นายสิรภพ ชลาศรี</div><div class="team-col">เลขประจำตัว 6512933</div><div class="team-col">ปวส.2/3-1 พิเศษ</div></div><div class="team-row"><div class="team-col">นายมกร รัตนจันทร์ฉาย</div><div class="team-col">เลขประจำตัว 6512938</div><div class="team-col"></div></div><div class="team-row"><div class="team-col">นายชีวัธนัย ศรีเชียง</div><div class="team-col">เลขประจำตัว 6512944</div><div class="team-col"></div></div></div>',
+            image: 'images/ว่าง.png'
         }
     };
 
@@ -307,6 +307,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const mapModal = document.getElementById('map-modal');
     const mapModalClose = document.getElementById('map-modal-close');
     const mapIframe = document.getElementById('map-iframe');
+
+    const btnPrevDetail = document.getElementById('btn-prev-detail');
+    const btnNextDetail = document.getElementById('btn-next-detail');
 
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const navDrawer = document.getElementById('nav-drawer');
@@ -420,7 +423,26 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             targetView.style.display = 'block';
-            window.scrollTo({ top: 0, behavior: 'instant' });
+
+            if (pageKey === 'home' || categoriesData[pageKey]) {
+                window.scrollTo({ top: 0, behavior: 'instant' });
+            } else if (pagesData[pageKey]) {
+                const targetBox = targetView.querySelector('.detail-content-box');
+                if (targetBox) {
+                    const offset = targetBox.getBoundingClientRect().top + window.scrollY - 85;
+                    window.scrollTo({ top: offset, behavior: 'instant' });
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'instant' });
+                }
+            } else {
+                 const targetBox = targetView.querySelector('.category-title');
+                 if (targetBox) {
+                    const offset = targetBox.getBoundingClientRect().top + window.scrollY - 100;
+                    window.scrollTo({ top: offset, behavior: 'instant' });
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'instant' });
+                }
+            }
 
             requestAnimationFrame(() => {
                 targetView.classList.add('active');
@@ -464,7 +486,13 @@ document.addEventListener('DOMContentLoaded', function() {
         detailTitle.textContent = data.title;
         detailImage.src = data.image;
         detailImage.alt = data.title;
-        detailDesc.textContent = data.desc;
+        detailDesc.innerHTML = data.desc;
+
+        if (pageKey === 'contact') {
+            detailDesc.classList.add('no-indent');
+        } else {
+            detailDesc.classList.remove('no-indent');
+        }
 
         if (data.mapLink && data.mapLink.trim() !== '') {
             detailMapBtn.setAttribute('data-map-src', data.mapLink); 
@@ -480,6 +508,33 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             detailBookBtn.removeAttribute('href');
             detailBookBtn.style.display = 'none';
+        }
+
+        const currentCategory = data.category;
+        const keysInCategory = Object.keys(pagesData).filter(key => pagesData[key].category === currentCategory);
+        const navWrapper = document.querySelector('.detail-navigation-wrapper');
+        
+        if (keysInCategory.length > 1) {
+            navWrapper.style.display = 'flex';
+            const currentIndex = keysInCategory.indexOf(pageKey);
+            
+            if (currentIndex > 0) {
+                btnPrevDetail.style.display = 'flex';
+                btnPrevDetail.setAttribute('data-target', keysInCategory[currentIndex - 1]);
+            } else {
+                btnPrevDetail.style.display = 'none';
+                btnPrevDetail.removeAttribute('data-target');
+            }
+
+            if (currentIndex < keysInCategory.length - 1) {
+                btnNextDetail.style.display = 'flex';
+                btnNextDetail.setAttribute('data-target', keysInCategory[currentIndex + 1]);
+            } else {
+                btnNextDetail.style.display = 'none';
+                btnNextDetail.removeAttribute('data-target');
+            }
+        } else {
+            navWrapper.style.display = 'none';
         }
     }
 
@@ -512,6 +567,20 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.target === mapModal) {
                 closeMapModal();
             }
+        });
+    }
+
+    if (btnPrevDetail) {
+        btnPrevDetail.addEventListener('click', function() {
+            const target = this.getAttribute('data-target');
+            if (target) navigateTo(target);
+        });
+    }
+
+    if (btnNextDetail) {
+        btnNextDetail.addEventListener('click', function() {
+            const target = this.getAttribute('data-target');
+            if (target) navigateTo(target);
         });
     }
 
