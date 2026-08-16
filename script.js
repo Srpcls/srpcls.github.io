@@ -289,6 +289,27 @@ document.addEventListener('DOMContentLoaded', function() {
         'category-tradition': { title: 'ประเพณีทั้งหมด', categoryKey: 'tradition' }
     };
 
+    // Helper Function: Apply Skeleton Loader to images
+    function applySkeleton(imgElement) {
+        imgElement.classList.add('skeleton');
+        imgElement.setAttribute('aria-busy', 'true');
+        
+        const removeSkeleton = () => {
+            imgElement.classList.remove('skeleton');
+            imgElement.removeAttribute('aria-busy');
+        };
+
+        if (imgElement.complete && imgElement.naturalHeight !== 0) {
+            removeSkeleton();
+        } else {
+            imgElement.onload = removeSkeleton;
+            imgElement.onerror = removeSkeleton;
+        }
+    }
+
+    // Apply skeleton to homepage images right away
+    document.querySelectorAll('.highlight-image').forEach(applySkeleton);
+
     const homeView = document.getElementById('home-view');
     const categoryView = document.getElementById('category-view');
     const detailView = document.getElementById('detail-view');
@@ -476,6 +497,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     navigateTo(key);
                 });
                 categoryGrid.appendChild(card);
+                
+                // แปะ Skeleton ให้รูปที่สร้างใหม่ใน Category
+                const img = card.querySelector('img');
+                applySkeleton(img);
             }
         });
     }
@@ -486,14 +511,18 @@ document.addEventListener('DOMContentLoaded', function() {
         detailTitle.textContent = data.title;
         
         if (data.image && data.image.trim() !== '') {
+            detailImage.classList.add('skeleton'); // เผื่อมีการโหลดใหม่
             detailImage.src = data.image;
             detailImage.alt = data.title;
             detailImage.style.display = 'block';
+            applySkeleton(detailImage);
         } else {
             detailImage.style.display = 'none';
         }
 
         detailDesc.innerHTML = data.desc;
+        // แปะ Skeleton ให้รูปที่เพิ่งถูกดึงเข้ามาในหน้าผู้จัดทำ
+        detailDesc.querySelectorAll('.team-image').forEach(applySkeleton);
 
         if (pageKey === 'contact') {
             detailDesc.classList.add('no-indent');
@@ -620,4 +649,4 @@ document.addEventListener('DOMContentLoaded', function() {
     btnBackDetail.addEventListener('click', function() {
         navigateTo(previousPage);
     });
-}); 
+});

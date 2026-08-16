@@ -473,7 +473,7 @@ body {
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     display: block;
     flex: 1 1 300px;
 }
@@ -779,12 +779,13 @@ body {
     gap: 20px;
     margin-bottom: 30px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; 
 }
 
 .team-image-box {
-    width: 200px;
-    height: 250px;
+    flex: 1 1 0; 
+    max-width: 250px; 
+    aspect-ratio: 3 / 4; 
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -1054,6 +1055,23 @@ body {
   transition-duration: calc(var(--transition-dur) * 0.5);
 }
 
+/* =========================================
+   Skeleton Loader (Shimmer Animation)
+   ========================================= */
+.skeleton {
+    background-color: #e5e7eb !important;
+    background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent) !important;
+    background-size: 200px 100% !important;
+    background-repeat: no-repeat !important;
+    animation: shimmer 1.5s infinite linear !important;
+    color: transparent !important; 
+}
+
+@keyframes shimmer {
+    0% { background-position: -200px 0; }
+    100% { background-position: calc(100% + 200px) 0; }
+}
+
 @media (max-width: 768px) {
     .detail-header-row {
         flex-direction: column;
@@ -1075,17 +1093,8 @@ body {
         padding-bottom: 0;
     }
     
-    /* ควบคุมขนาดและจัดแถวภาพผู้จัดทำให้ยืดหยุ่นไม่ตกบรรทัด */
     .team-gallery {
-        flex-wrap: nowrap;
-        gap: 10px;
-    }
-    
-    .team-image-box {
-        flex: 1;
-        width: auto;
-        height: auto;
-        aspect-ratio: 4 / 5;
+        gap: 10px; 
     }
 }
 
