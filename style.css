@@ -781,20 +781,29 @@ body {
     margin-bottom: 0;
 }
 
-.btn-map {
+.action-buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn-map, .btn-book {
     display: flex;
     align-items: center;
     gap: 8px;
     padding: 10px 16px;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
-    background-color: #ffffff;
     text-decoration: none;
-    color: #374151;
     font-size: 15px;
     font-weight: 500;
     transition: all 0.2s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.btn-map {
+    background-color: #ffffff;
+    color: #374151;
 }
 
 .btn-map:hover {
@@ -804,6 +813,22 @@ body {
 
 .btn-map svg {
     color: #4b5563;
+}
+
+.btn-book {
+    background-color: #6225e6;
+    border-color: #6225e6;
+    color: #ffffff;
+}
+
+.btn-book:hover {
+    background-color: #4f1db5;
+    border-color: #4f1db5;
+    box-shadow: 0 4px 12px rgba(98, 37, 230, 0.2);
+}
+
+.btn-book svg {
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
