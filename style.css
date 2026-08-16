@@ -43,14 +43,14 @@ body {
     align-items: center;
     padding: 0 15px;
     z-index: 1000;
-    pointer-events: none; /* สั่งให้คลิกทะลุช่องว่างของ Navbar ได้ */
+    pointer-events: none;
 }
 
 .nav-left {
     display: flex;
     align-items: center;
     gap: 20px;
-    pointer-events: auto; /* ทำให้ปุ่มตรงนี้ยังคลิกได้ปกติ */
+    pointer-events: auto;
 }
 
 .brand {
@@ -66,7 +66,7 @@ body {
     backdrop-filter: blur(10px);
     padding: 6px 20px 6px 8px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     white-space: nowrap;
     flex-shrink: 0;
 }
@@ -83,10 +83,10 @@ body {
     backdrop-filter: blur(10px);
     padding: 8px 16px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: 15px;
-    pointer-events: auto; /* ทำให้เมนูคลิกได้ปกติ */
+    pointer-events: auto;
 }
 
 .nav-links {
@@ -141,7 +141,7 @@ body {
     max-height: 70vh;
     overflow-y: auto;
     list-style: none;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     opacity: 0;
     visibility: hidden;
     transition: all 0.2s ease;
@@ -177,7 +177,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    pointer-events: auto; /* ทำให้ปุ่มฝั่งขวาคลิกได้ปกติ */
+    pointer-events: auto;
 }
 
 .btn-contact {
@@ -188,14 +188,14 @@ body {
     border-radius: 50px;
     text-decoration: none;
     font-size: 14px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .btn-contact:hover {
     background-color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .hamburger-btn {
@@ -248,7 +248,7 @@ body {
     z-index: 1010;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.3);
     transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -473,7 +473,7 @@ body {
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     display: block;
     flex: 1 1 300px;
 }
@@ -576,7 +576,7 @@ body {
     font-weight: 600;
     border: none;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
     margin-bottom: 100px;
     display: flex;
     align-items: center;
@@ -635,7 +635,7 @@ body {
     background: #ffffff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     display: flex;
@@ -644,7 +644,7 @@ body {
 
 .card-item:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .card-item img {
@@ -699,9 +699,9 @@ body {
     background: #ffffff;
     padding: 40px;
     border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     max-width: 900px;
-    margin: 0 auto;
+    margin: 60px auto 0;
 }
 
 .detail-navigation-wrapper {
@@ -725,12 +725,12 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .btn-nav-detail:hover {
     border-color: #9ca3af;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
     transform: translateY(-2px);
 }
 
@@ -783,7 +783,7 @@ body {
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     overflow: hidden;
     margin: 0 auto;
@@ -803,6 +803,10 @@ body {
 .home-content-box.highlights-box {
     width: fit-content;
     max-width: 100%;
+}
+
+.brand, .nav-right {
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .detail-header-row {
@@ -835,7 +839,7 @@ body {
     font-size: 15px;
     font-weight: 500;
     transition: all 0.2s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     background-color: #6225e6;
     color: #ffffff;
 }
@@ -843,7 +847,7 @@ body {
 .btn-book:hover {
     background-color: #4f1db5;
     border-color: #4f1db5;
-    box-shadow: 0 4px 12px rgba(98, 37, 230, 0.2);
+    box-shadow: 0 4px 12px rgba(98, 37, 230, 0.4);
 }
 
 .btn-book svg {
@@ -869,14 +873,18 @@ body {
   overflow: hidden;
   border-radius: 50ch;
   text-decoration: none;
-  box-shadow:
-    0px -1px 2px rgba(3, 7, 18, 0.005),
-    0px -5px 6px rgba(3, 7, 18, 0.009),
-    0px -12px 12px rgba(3, 7, 18, 0.015),
-    0px -20px 22px rgba(3, 7, 18, 0.02),
-    0px -32px 32px rgba(3, 7, 18, 0.06);
-
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   transition: transform var(--transition-dur) ease, box-shadow var(--transition-dur) ease;
+}
+
+.map-btn-wrapper:has(.map-btn:hover) {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 6px rgba(245, 16, 27, 0.7);
+}
+
+.map-btn-wrapper:has(.map-btn:active) {
+  transform: scale(1.02) translateY(0.1em);
+  box-shadow: 0 0 10px 2px rgba(245, 16, 27, 0.7);
 }
 
 .map-btn {
@@ -988,11 +996,6 @@ body {
   z-index: 1;
 }
 
-/* Hover states with Aura */
-.map-btn-wrapper:has(.map-btn:hover) {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px 6px rgba(245, 16, 27, 0.4);
-}
 .map-btn:hover {
   background-color: var(--text-color);
   color: #00000025;
@@ -1006,12 +1009,6 @@ body {
   transform: perspective(100px) rotateX(35deg) scaleX(0.85);
   opacity: 1;
 }
-
-/* Active states */
-.map-btn-wrapper:has(.map-btn:active) {
-  transform: scale(1.02) translateY(0.1em);
-  box-shadow: 0 0 10px 2px rgba(245, 16, 27, 0.4);
-}
 .map-btn:active + .pinpoint {
   transform: translateY(-50%) rotateZ(45deg) translate(0em, 0em);
   transition-duration: calc(var(--transition-dur) * 0.5);
@@ -1020,7 +1017,6 @@ body {
   transform: perspective(95px) rotateX(35deg) scaleX(0.85);
   transition-duration: calc(var(--transition-dur) * 0.5);
 }
-
 
 @media (max-width: 768px) {
     .detail-header-row {
@@ -1153,7 +1149,7 @@ body {
     background: #fff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
     transform: scale(0.95);
     transition: transform 0.3s ease;
 }
