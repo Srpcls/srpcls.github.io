@@ -276,8 +276,8 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'contact',
             tag: 'ผู้จัดทำ',
             title: 'คณะผู้จัดทำ',
-            desc: '<div class="team-table"><div class="team-row"><div class="team-col">นายสิรภพ ชลาศรี</div><div class="team-col">เลขประจำตัว 6512933</div><div class="team-col">ปวส.2/3-1 พิเศษ</div></div><div class="team-row"><div class="team-col">นายมกร รัตนจันทร์ฉาย</div><div class="team-col">เลขประจำตัว 6512938</div><div class="team-col"></div></div><div class="team-row"><div class="team-col">นายชีวัธนัย ศรีเชียง</div><div class="team-col">เลขประจำตัว 6512944</div><div class="team-col"></div></div></div>',
-            image: 'images/ว่าง.png'
+            desc: '<div class="team-gallery"><div class="team-image-box"><img src="images/SD 1.png" alt="SD 1" class="team-image"></div><div class="team-image-box"><img src="images/SD 2.png" alt="SD 2" class="team-image"></div><div class="team-image-box"><img src="images/SD 3.png" alt="SD 3" class="team-image"></div></div><div class="team-table"><div class="team-row"><div class="team-col">นายสิรภพ ชลาศรี</div><div class="team-col">เลขประจำตัว 6512933</div><div class="team-col">ปวส.2/3-1 พิเศษ</div></div><div class="team-row"><div class="team-col">นายมกร รัตนจันทร์ฉาย</div><div class="team-col">เลขประจำตัว 6512938</div><div class="team-col"></div></div><div class="team-row"><div class="team-col">นายชีวัธนัย ศรีเชียง</div><div class="team-col">เลขประจำตัว 6512944</div><div class="team-col"></div></div></div>',
+            image: ''
         }
     };
 
@@ -484,8 +484,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const data = pagesData[pageKey];
         detailTag.textContent = data.tag;
         detailTitle.textContent = data.title;
-        detailImage.src = data.image;
-        detailImage.alt = data.title;
+        
+        if (data.image && data.image.trim() !== '') {
+            detailImage.src = data.image;
+            detailImage.alt = data.title;
+            detailImage.style.display = 'block';
+        } else {
+            detailImage.style.display = 'none';
+        }
+
         detailDesc.innerHTML = data.desc;
 
         if (pageKey === 'contact') {
@@ -613,4 +620,4 @@ document.addEventListener('DOMContentLoaded', function() {
     btnBackDetail.addEventListener('click', function() {
         navigateTo(previousPage);
     });
-});
+}); 
